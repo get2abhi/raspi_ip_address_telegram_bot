@@ -19,12 +19,11 @@ sdasd
 2. Make sure the path to the log file exists in line 4 of myipaddress.py
 3. Install some dependecies 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`sudo apt-get install libffi-dev`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`sudo apt-get install libssl-dev`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`sudo apt-get install libffi-dev libssl-dev`
 
 4. Install telegram library for python
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`pip install python-telegram-bot`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`pip install python-telegram-bot netifaces`
 
 4. Just run the bot with `python myipaddress.py` and you should be getting the ip address of the raspi<br><br>
 `Hey Dude. My new IP Address is 192.168.1.111`
