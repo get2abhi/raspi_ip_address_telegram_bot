@@ -19,7 +19,8 @@ sdasd
 2. Make sure the path to the log file exists in line 4 of myipaddress.py
 3. Install some dependecies 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`sudo apt-get install libffi-dev`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`sudo apt-get install libffi-dev`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`sudo apt-get install libssl-dev`
 
 4. Install telegram library for python
 
