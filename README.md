@@ -15,15 +15,16 @@ sdasd
 
 ## Running the bot
 
-1. Start chatting with your new bot by sending some message
-2. Just run the bot with `python myipaddress.py` and you should be getting the ip address of the raspi<br><br>
+1. Start chatting with your new bot by sending some message.
+2. Make sure the path to the log file exists in line 4 of myipaddress.py
+3. Just run the bot with `python myipaddress.py` and you should be getting the ip address of the raspi<br><br>
 `Hey Dude. My new IP Address is 192.168.1.111`
 
 ## Putting the script on boot
 
 1. Open Crontab using `crontab -e`
-2. Add an entry at the bottom like this 
+2. Add an entry at the bottom like this (Make sure the script exists on the path)
 
-`@reboot sleep 60 && python dev/scripts/myipaddress.py &`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`@reboot sleep 60 && python dev/scripts/myipaddress.py &`
 
 3. Send a test message to the bot everytime when you need the ip address before boot.
