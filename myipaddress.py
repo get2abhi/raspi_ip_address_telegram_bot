@@ -1,4 +1,4 @@
-import logging, telegram
+import logging.handlers, telegram
 import netifaces as ni
 
 LOG_FILENAME = '/home/pi/dev/myipaddress.log'
