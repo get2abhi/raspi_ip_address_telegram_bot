@@ -17,11 +17,15 @@ sdasd
 
 1. Start chatting with your new bot by sending some message.
 2. Make sure the path to the log file exists in line 4 of myipaddress.py
-3. Install telegram library for python
+3. Install some dependecies 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`sudo apt-get install libffi-dev`
+
+4. Install telegram library for python
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`pip install python-telegram-bot`
 
-3. Just run the bot with `python myipaddress.py` and you should be getting the ip address of the raspi<br><br>
+4. Just run the bot with `python myipaddress.py` and you should be getting the ip address of the raspi<br><br>
 `Hey Dude. My new IP Address is 192.168.1.111`
 
 ## Putting the script on boot
